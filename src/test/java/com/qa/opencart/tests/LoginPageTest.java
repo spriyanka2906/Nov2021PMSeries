@@ -30,7 +30,7 @@ public class LoginPageTest extends BaseTest {
 	
 	@Description("TC_01 : Login Page  url test")
 	@Severity(SeverityLevel.NORMAL)
-	@Test
+	@Test(enabled = false)
 	public void loginPageURLTest() {
 		String url=loginPage.getLoginPageUrl();
 		System.out.println("Login Page URL is:" + url);
